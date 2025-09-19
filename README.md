@@ -1,4 +1,5 @@
 
+The KLSD database, available at http://ai.njucm.edu.cn:8080, is maintained by Nanjing University of Chinese Medicine under a time-based access policy to ensure data integrity, confidentiality, and availability. Access is permitted daily from 06:30 to 23:30 Beijing Time; external access is restricted outside these hours. KLSD is guaranteed to remain freely available for at least two years and supports major browsers on Windows and macOS.
 # KLSD
 In this project, we propose a dual-objective predictive model that integrates molecular feature engineering with deep learning to simultaneously predict both the activity and selectivity of inhibitors targeting the JAK kinase family (JAK1, JAK2, JAK3, and TYK2). The model employs a multilayer perceptron (MLP) residual network architecture with target-specific branching to enable accurate prediction across multiple sub-targets. Moreover, it introduces an innovative approach by using quantitative activity values in place of conventional binary labels.
 
@@ -6,6 +7,7 @@ In this project, we propose a dual-objective predictive model that integrates mo
 The file is required to be located in requirements.txt.
 
 # Data
+Data Sources: Small-molecule kinase inhibitor datasets, including the JAK family benchmark data, were obtained from ChEMBL (https://www.ebi.ac.uk/chembl/).All processed JAK family data are available on GitHub, with the specific dataset download URLs accessible at: https://github.com/ccheng0113ooo-rgb/KLSD/tree/main/finaldata.
 finaldata: the input dataset used as the model input
 valid_activity_jak.CSV：Raw data of the JAK kinase family
 processed: Processed dataset used as input to the model
