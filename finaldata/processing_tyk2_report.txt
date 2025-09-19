@@ -1,0 +1,17 @@
+Total Records: 3102
+Valid Records: 3102
+Invalid Records: 0
+Unchanged SMILES: 3102
+
+Sample Output:
+                                                                                                                          original_smiles                                                                                                                          canonical_smiles  activity
+    CNC(=O)c1cnc(Nc2ccc(C(=O)NCCCCCCCCCC(=O)N[C@H](C(=O)N3C[C@H](O)C[C@H]3C(=O)NCc3ccc(-c4scnc4C)cc3)C(C)(C)C)cn2)cc1Nc1cccc(C(=O)NC)c1OC     CNC(=O)c1cnc(Nc2ccc(C(=O)NCCCCCCCCCC(=O)N[C@H](C(=O)N3C[C@H](O)C[C@H]3C(=O)NCc3ccc(-c4scnc4C)cc3)C(C)(C)C)cn2)cc1Nc1cccc(C(=O)NC)c1OC      6.64
+     CNC(=O)c1cccc(Nc2cc(Nc3ccc(C(=O)NCCCCCCCCCC(=O)N[C@H](C(=O)N4C[C@H](O)C[C@H]4C(=O)NCc4ccc(-c5scnc5C)cc4)C(C)(C)C)cn3)ncc2C(N)=O)c1OC      CNC(=O)c1cccc(Nc2cc(Nc3ccc(C(=O)NCCCCCCCCCC(=O)N[C@H](C(=O)N4C[C@H](O)C[C@H]4C(=O)NCc4ccc(-c5scnc5C)cc4)C(C)(C)C)cn3)ncc2C(N)=O)c1OC      7.64
+CNC(=O)c1cnc(Nc2ccc(C(=O)NCCCCCCCCCC(=O)N[C@H](C(=O)N3C[C@H](O)C[C@H]3C(=O)NCc3ccc(-c4scnc4C)cc3)C(C)(C)C)cn2)cc1Nc1cccc(-c2ncn(C)n2)c1OC CNC(=O)c1cnc(Nc2ccc(C(=O)NCCCCCCCCCC(=O)N[C@H](C(=O)N3C[C@H](O)C[C@H]3C(=O)NCc3ccc(-c4scnc4C)cc3)C(C)(C)C)cn2)cc1Nc1cccc(-c2ncn(C)n2)c1OC      7.85
+                                                                                Cc1ccc(NC(=O)c2cccc(C(F)(F)F)c2)cc1N1Cc2cnc(N)nc2N(C)C1=O                                                                                 Cc1ccc(NC(=O)c2cccc(C(F)(F)F)c2)cc1N1Cc2cnc(N)nc2N(C)C1=O      5.70
+                                                                    CO[C@@]1(c2cc(C#N)cc(-c3cn([C@@H]4CC4(F)F)c4cnc(NC(C)=O)cc34)n2)CCOC1                                                                     CO[C@@]1(c2cc(C#N)cc(-c3cn([C@@H]4CC4(F)F)c4cnc(NC(C)=O)cc34)n2)CCOC1      6.90
+                                                                               CO[C@@]1(c2cc(OCC#N)cc(-c3cn(C)c4cnc(NC(C)=O)cc34)n2)CCOC1                                                                                CO[C@@]1(c2cc(OCC#N)cc(-c3cn(C)c4cnc(NC(C)=O)cc34)n2)CCOC1      6.46
+                                                                               CO[C@@]1(c2cc(C(F)F)cc(-c3cn(C)c4cnc(NC(C)=O)cc34)n2)CCOC1                                                                                CO[C@@]1(c2cc(C(F)F)cc(-c3cn(C)c4cnc(NC(C)=O)cc34)n2)CCOC1      7.40
+                                                                              COc1cc(-c2cn(C3COC3)c3cnc(NC(C)=O)cc23)nc([C@]2(OC)CCOC2)c1                                                                               COc1cc(-c2cn(C3COC3)c3cnc(NC(C)=O)cc23)nc([C@]2(OC)CCOC2)c1      6.96
+                                                                              CO[C@@]1(c2cc(OC(F)F)cc(-c3cn(C)c4cnc(NC(C)=O)cc34)n2)CCOC1                                                                               CO[C@@]1(c2cc(OC(F)F)cc(-c3cn(C)c4cnc(NC(C)=O)cc34)n2)CCOC1      7.05
+                                                                                COCCOc1cc(-c2cn(C)c3cnc(NC(C)=O)cc23)nc([C@]2(OC)CCOC2)c1                                                                                 COCCOc1cc(-c2cn(C)c3cnc(NC(C)=O)cc23)nc([C@]2(OC)CCOC2)c1      7.52
