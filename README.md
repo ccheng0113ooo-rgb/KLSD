@@ -14,6 +14,8 @@ optimized_jak_results_finaldata_roc1、nn_results_finalall_6：Results of the du
 # Code
 process_data.py、split_dataset.py:Preprocessing and splitting of the input dataset
 nn.py: This function contains the network framework of our entire model.
+ML_code:Relevant code for the baseline model
+cnn:Relevant code for the baseline model
 
 # Train and test folds
 python process_data.py --finaldata /Your path
