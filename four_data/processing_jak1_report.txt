@@ -1,0 +1,17 @@
+Total Records: 5774
+Valid Records: 5774
+Invalid Records: 0
+Unchanged SMILES: 5774
+
+Sample Output:
+                                                    original_smiles                                                    canonical_smiles  activity
+Cc1cc(Nc2nc3cccc(-c4cc(F)c(CN5CCOCC5)c(F)c4)c3o2)ccc1C(=O)NCCCN(C)C Cc1cc(Nc2nc3cccc(-c4cc(F)c(CN5CCOCC5)c(F)c4)c3o2)ccc1C(=O)NCCCN(C)C      7.46
+                 N#CCC(=O)Nc1cccc(-c2ccnc(Nc3ccc(N4CCOCC4)cc3)n2)c1                  N#CCC(=O)Nc1cccc(-c2ccnc(Nc3ccc(N4CCOCC4)cc3)n2)c1      5.65
+                 N#CCC(=O)Nc1ccc(-c2ccnc(Nc3ccc(N4CCOCC4)cc3)n2)cc1                  N#CCC(=O)Nc1ccc(-c2ccnc(Nc3ccc(N4CCOCC4)cc3)n2)cc1      6.36
+            NC1(c2ccc(-c3nc4ccn5c(=O)[nH]nc5c4cc3-c3ccccc3)cc2)CCC1             NC1(c2ccc(-c3nc4ccn5c(=O)[nH]nc5c4cc3-c3ccccc3)cc2)CCC1      4.52
+        O=c1[nH]c2cnc(-n3cnc4ccc(F)cc43)nc2n1[C@@H]1CCOc2c(F)cccc21         O=c1[nH]c2cnc(-n3cnc4ccc(F)cc43)nc2n1[C@@H]1CCOc2c(F)cccc21      7.24
+    Cc1cc(Nc2nc3cccc(-c4cc(F)c(CN5CCOCC5)c(F)c4)c3o2)ccc1C(=O)N(C)C     Cc1cc(Nc2nc3cccc(-c4cc(F)c(CN5CCOCC5)c(F)c4)c3o2)ccc1C(=O)N(C)C      6.85
+                        COc1cc(Nc2nc3cccc(-c4ccccc4)c3o2)cc(OC)c1OC                         COc1cc(Nc2nc3cccc(-c4ccccc4)c3o2)cc(OC)c1OC      6.15
+                    COc1cc(Nc2nc3cccc(-c4cccc(Cl)c4)c3o2)cc(OC)c1OC                     COc1cc(Nc2nc3cccc(-c4cccc(Cl)c4)c3o2)cc(OC)c1OC      5.28
+                  COc1ccc(-c2cccc3nc(Nc4cc(OC)c(OC)c(OC)c4)oc23)cc1                   COc1ccc(-c2cccc3nc(Nc4cc(OC)c(OC)c(OC)c4)oc23)cc1      5.05
+                        COc1cc(Nc2nc3cccc(-c4ccccn4)c3o2)cc(OC)c1OC                         COc1cc(Nc2nc3cccc(-c4ccccn4)c3o2)cc(OC)c1OC      6.12

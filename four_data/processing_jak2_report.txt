@@ -1,0 +1,17 @@
+Total Records: 8438
+Valid Records: 8438
+Invalid Records: 0
+Unchanged SMILES: 8438
+
+Sample Output:
+                                      original_smiles                                      canonical_smiles  activity
+COc1ccc2c(OCc3nnc4ccc(-c5cc(F)c(F)c(F)c5)nn34)ccnc2c1 COc1ccc2c(OCc3nnc4ccc(-c5cc(F)c(F)c(F)c5)nn34)ccnc2c1      5.00
+             Cc1ccc(O)c(NC(=O)COc2ccc(C3CCCCC3)cc2)c1              Cc1ccc(O)c(NC(=O)COc2ccc(C3CCCCC3)cc2)c1      4.40
+                      Cc1cccc(OCC(=O)Nc2cccc(C)c2C)c1                       Cc1cccc(OCC(=O)Nc2cccc(C)c2C)c1      4.40
+                   Cc1cccc(OCC(=O)Nc2cc(C)c(C)cc2O)c1                    Cc1cccc(OCC(=O)Nc2cc(C)c(C)cc2O)c1      4.40
+                   Cc1ccc(O)c(NC(=O)COc2ccc(Br)cc2)c1                    Cc1ccc(O)c(NC(=O)COc2ccc(Br)cc2)c1      7.48
+                     Cc1ccc(O)c(NC(=O)COc2ccccc2Cl)c1                      Cc1ccc(O)c(NC(=O)COc2ccccc2Cl)c1      7.61
+                 Cc1ccc(O)c(NC(=O)COc2cccc3ccccc23)c1                  Cc1ccc(O)c(NC(=O)COc2cccc3ccccc23)c1      5.63
+                       COc1ccccc1OCC(=O)Nc1cc(C)ccc1O                        COc1ccccc1OCC(=O)Nc1cc(C)ccc1O      7.41
+                       Cc1cccc(NC(=O)COc2cccc(C)c2)c1                        Cc1cccc(NC(=O)COc2cccc(C)c2)c1      4.40
+                    Cc1ccc(O)c(NC(=O)COc2ccc(I)cc2)c1                     Cc1ccc(O)c(NC(=O)COc2ccc(I)cc2)c1      7.57
