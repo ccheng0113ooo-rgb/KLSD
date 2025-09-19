@@ -7,7 +7,7 @@ In this project, we propose a dual-objective predictive model that integrates mo
 The file is required to be located in requirements.txt.
 
 # Data
-Data Sources: Small-molecule kinase inhibitor datasets, including the JAK family benchmark data, were obtained from ChEMBL (https://www.ebi.ac.uk/chembl/).All processed JAK family data are available on GitHub, with the specific dataset download URLs accessible at: https://github.com/ccheng0113ooo-rgb/KLSD/tree/main/finaldata.
+Data Sources: Small-molecule kinase inhibitor datasets, including the JAK family benchmark data, were obtained from ChEMBL (https://www.ebi.ac.uk/chembl/). All processed JAK family data are available on GitHub, with the specific dataset download URLs accessible at: https://github.com/ccheng0113ooo-rgb/KLSD/tree/main/finaldata.
 finaldata: the input dataset used as the model input
 valid_activity_jak.CSV：Raw data of the JAK kinase family
 processed: Processed dataset used as input to the model
