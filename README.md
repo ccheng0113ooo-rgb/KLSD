@@ -14,12 +14,12 @@ processed: Processed dataset used as input to the model
 optimized_jak_results_finaldata_roc1、nn_results_finalall_6：Results of the dual-objective predictive model
 
 # Code
+klsd:Frontend files of the database platform
+backend:Backend files of the database platform
 process_data.py、split_dataset.py:Preprocessing and splitting of the input dataset
 nn.py: This function contains the network framework of our entire model.
 ML_code:Relevant code for the baseline model
 cnn:Relevant code for the baseline model
-backend:Backend files of the database platform
-klsd:Frontend files of the database platform
 
 # Train and test folds
 python process_data.py --finaldata /Your path
