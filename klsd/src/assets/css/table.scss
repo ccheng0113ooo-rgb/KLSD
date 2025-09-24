@@ -1,0 +1,37 @@
+ 
+/**
+改变边框颜色
+ */
+// .el-table--border, .el-table--group {
+//     border: 2px solid #e33b60;
+// } 
+/**
+改变表格内竖线颜色
+ */
+// .el-table--border  td, .el-table--border th, .el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed {
+//     border-right: 2px solid #D33b60;
+// }
+/**
+改变表格内行线颜色
+ */
+// .el-table  td, .el-table th.is-leaf  {
+//     border-bottom: 1px solid #D33b60;
+// }
+ 
+.el-table thead tr th{
+    border-color: #D33b60;
+}
+// /* g改变表头字体颜色 */
+.el-table thead {
+    color:#e33b60;
+    font-weight: bold;
+}
+.el-table th.el-table__cell{
+    // background-color: #D33b60;
+    color: #D33b60;
+    font-weight: bold;
+}
+
+// .el-table--border .el-table__cell, .el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed {
+//     border-right: 2px solid #E33B66;
+// }

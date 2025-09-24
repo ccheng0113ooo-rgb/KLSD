@@ -1,0 +1,630 @@
+{
+    "name": "kinase",
+    "size": 690061,
+    "children": [
+        {
+            "name": "AGC",
+            "size": 76374,
+            "children": [
+                {
+                    "name": "AKT",
+                    "size": 6985
+                },
+                {
+                    "name": "DMPK",
+                    "size": 5724
+                },
+                {
+                    "name": "GRK",
+                    "size": 964
+                },
+                {
+                    "name": "MAST",
+                    "size": 5176
+                },
+                {
+                    "name": "NDR",
+                    "size": 564
+                },
+                {
+                    "name": "PDK1",
+                    "size": 5162
+                },
+                {
+                    "name": "PKA",
+                    "size": 3376
+                },
+                {
+                    "name": "PKC",
+                    "size": 22872
+                },
+                {
+                    "name": "PKG",
+                    "size": 1598
+                },
+                {
+                    "name": "PKN",
+                    "size": 1649
+                },
+                {
+                    "name": "RSK",
+                    "size": 5382
+                },
+                {
+                    "name": "RSKL",
+                    "size": 2041
+                },
+                {
+                    "name": "RSKR",
+                    "size": 12334
+                },
+                {
+                    "name": "SGK",
+                    "size": 2235
+                },
+                {
+                    "name": "YANK",
+                    "size": 312
+                }
+            ]
+        },
+        {
+            "name": "Atypical",
+            "size": 4821,
+            "children": [
+                {
+                    "name": "PDHK",
+                    "size": 2773
+                },
+                {
+                    "name": "PIP",
+                    "size": 2048
+                }
+            ]
+        },
+        {
+            "name": "CAMK",
+            "size": 104072,
+            "children": [
+                {
+                    "name": "CAMK-Unique",
+                    "size": 526
+                },
+                {
+                    "name": "CAMK1",
+                    "size": 1311
+                },
+                {
+                    "name": "CAMK2",
+                    "size": 2561
+                },
+                {
+                    "name": "CAMKK",
+                    "size": 876
+                },
+                {
+                    "name": "CAMKL",
+                    "size": 19042
+                },
+                {
+                    "name": "CASK",
+                    "size": 250
+                },
+                {
+                    "name": "DAPK",
+                    "size": 2453
+                },
+                {
+                    "name": "DCAMKL",
+                    "size": 1503
+                },
+                {
+                    "name": "MAPKAPK",
+                    "size": 7734
+                },
+                {
+                    "name": "MLCK",
+                    "size": 940
+                },
+                {
+                    "name": "PHK",
+                    "size": 1641
+                },
+                {
+                    "name": "PIM",
+                    "size": 7417
+                },
+                {
+                    "name": "PKD",
+                    "size": 3154
+                },
+                {
+                    "name": "PSK",
+                    "size": 16480
+                },
+                {
+                    "name": "RSKb",
+                    "size": 5382
+                },
+                {
+                    "name": "SgK495",
+                    "size": 277
+                },
+                {
+                    "name": "TSSK",
+                    "size": 1444
+                },
+                {
+                    "name": "Trbl",
+                    "size": 31060
+                },
+                {
+                    "name": "Trio",
+                    "size": 21
+                }
+            ]
+        },
+        {
+            "name": "CK1",
+            "size": 10137,
+            "children": [
+                {
+                    "name": "CK1",
+                    "size": 7565
+                },
+                {
+                    "name": "TTBK",
+                    "size": 2058
+                },
+                {
+                    "name": "VRK",
+                    "size": 514
+                }
+            ]
+        },
+        {
+            "name": "CMGC",
+            "size": 82897,
+            "children": [
+                {
+                    "name": "CDK",
+                    "size": 18620
+                },
+                {
+                    "name": "CDKL",
+                    "size": 514
+                },
+                {
+                    "name": "CK2",
+                    "size": 5164
+                },
+                {
+                    "name": "CLK",
+                    "size": 4711
+                },
+                {
+                    "name": "DYRK",
+                    "size": 5121
+                },
+                {
+                    "name": "GSK",
+                    "size": 8581
+                },
+                {
+                    "name": "MAPK",
+                    "size": 38070
+                },
+                {
+                    "name": "RCK",
+                    "size": 478
+                },
+                {
+                    "name": "SRPK",
+                    "size": 1638
+                }
+            ]
+        },
+        {
+            "name": "OTHER",
+            "size": 187821,
+            "children": [
+                {
+                    "name": "AUR",
+                    "size": 8476
+                },
+                {
+                    "name": "Axl",
+                    "size": 3310
+                },
+                {
+                    "name": "BUB",
+                    "size": 377
+                },
+                {
+                    "name": "CDC7",
+                    "size": 1475
+                },
+                {
+                    "name": "Haspin",
+                    "size": 561
+                },
+                {
+                    "name": "IKK",
+                    "size": 4877
+                },
+                {
+                    "name": "IRE",
+                    "size": 1084
+                },
+                {
+                    "name": "KIS",
+                    "size": 2679
+                },
+                {
+                    "name": "MOS",
+                    "size": 2
+                },
+                {
+                    "name": "NAK",
+                    "size": 3139
+                },
+                {
+                    "name": "NEK",
+                    "size": 2837
+                },
+                {
+                    "name": "NKF1",
+                    "size": 240
+                },
+                {
+                    "name": "NKF2",
+                    "size": 89762
+                },
+                {
+                    "name": "NKF3",
+                    "size": 6464
+                },
+                {
+                    "name": "NKF4",
+                    "size": 229
+                },
+                {
+                    "name": "NKF5",
+                    "size": 245
+                },
+                {
+                    "name": "NRBP",
+                    "size": 4511
+                },
+                {
+                    "name": "Other-Unique",
+                    "size": 1
+                },
+                {
+                    "name": "PAN3",
+                    "size": 10
+                },
+                {
+                    "name": "PEK",
+                    "size": 989
+                },
+                {
+                    "name": "PLK",
+                    "size": 27267
+                },
+                {
+                    "name": "SCY1",
+                    "size": 0
+                },
+                {
+                    "name": "SgK071",
+                    "size": 4153
+                },
+                {
+                    "name": "SgK493",
+                    "size": 866
+                },
+                {
+                    "name": "Slob",
+                    "size": 0
+                },
+                {
+                    "name": "TBCK",
+                    "size": 18900
+                },
+                {
+                    "name": "TLK",
+                    "size": 0
+                },
+                {
+                    "name": "TOPK",
+                    "size": 948
+                },
+                {
+                    "name": "TTK",
+                    "size": 2037
+                },
+                {
+                    "name": "ULK",
+                    "size": 868
+                },
+                {
+                    "name": "VPS15",
+                    "size": 3
+                },
+                {
+                    "name": "WEE",
+                    "size": 1093
+                },
+                {
+                    "name": "WNK",
+                    "size": 418
+                }
+            ]
+        },
+        {
+            "name": "PKL",
+            "size": 7184,
+            "children": [
+                {
+                    "name": "ABC1",
+                    "size": 535
+                },
+                {
+                    "name": "Alpha",
+                    "size": 5203
+                },
+                {
+                    "name": "Bud32",
+                    "size": 269
+                },
+                {
+                    "name": "PIK",
+                    "size": 1
+                },
+                {
+                    "name": "PIKK",
+                    "size": 0
+                },
+                {
+                    "name": "PIPK",
+                    "size": 0
+                },
+                {
+                    "name": "RIO",
+                    "size": 1176
+                }
+            ]
+        },
+        {
+            "name": "RGC",
+            "size": 217, 
+            "children": [
+                {
+                    "name": "RGC",
+                    "size": 217
+                }
+            ]
+        },
+        {
+            "name": "SAPPK",
+            "size": 4601,
+            "children": [
+                {
+                    "name": "A6",
+                    "size": 71
+                },
+                {
+                    "name": "BCR",
+                    "size": 1321
+                },
+                {
+                    "name": "BRD",
+                    "size": 5
+                },
+                {
+                    "name": "G11",
+                    "size": 46
+                },
+                {
+                    "name": "H11",
+                    "size": 146
+                },
+                {
+                    "name": "RAD53",
+                    "size": 2724
+                },
+                {
+                    "name": "TAF1",
+                    "size": 288
+                }
+            ]
+        },
+        {
+            "name": "STE",
+            "size": 15021,
+            "children": [
+                {
+                    "name": "STE-Unique",
+                    "size": 1029
+                },
+                {
+                    "name": "STE7",
+                    "size": 3809
+                },
+                {
+                    "name": "STE11",
+                    "size": 3425
+                },
+                {
+                    "name": "STE20",
+                    "size": 6758
+                }
+            ]
+        },
+        {
+            "name": "TK",
+            "size": 169825,
+            "children": [
+                {
+                    "name": "Abl",
+                    "size": 14010
+                },
+                {
+                    "name": "Ack",
+                    "size": 1952
+                },
+                {
+                    "name": "Alk",
+                    "size": 5841
+                },
+                {
+                    "name": "CCK4",
+                    "size": 3038
+                },
+                {
+                    "name": "Csk",
+                    "size": 2003
+                },
+                {
+                    "name": "DDR",
+                    "size": 773
+                },
+                {
+                    "name": "EGFR",
+                    "size": 14112
+                },
+                {
+                    "name": "Eph",
+                    "size": 3733
+                },
+                {
+                    "name": "FAK",
+                    "size": 4362
+                },
+                {
+                    "name": "FGFR",
+                    "size": 8621
+                },
+                {
+                    "name": "Fer",
+                    "size": 1595
+                },
+                {
+                    "name": "InsR",
+                    "size": 6927
+                },
+                {
+                    "name": "Jak1",
+                    "size": 6664
+                },
+                {
+                    "name": "Jak2",
+                    "size": 9846
+                },
+                {
+                    "name": "Jak3",
+                    "size": 6314
+                },
+                {
+                    "name": "Lmr",
+                    "size": 0
+                },
+                {
+                    "name": "Met",
+                    "size": 7207
+                },
+                {
+                    "name": "Musk",
+                    "size": 889
+                },
+                {
+                    "name": "PDGFR",
+                    "size": 10283
+                },
+                {
+                    "name": "Ret",
+                    "size": 2908
+                },
+                {
+                    "name": "Ror",
+                    "size": 4147
+                },
+                {
+                    "name": "Ryk",
+                    "size": 9758
+                },
+                {
+                    "name": "Sev",
+                    "size": 1652
+                },
+                {
+                    "name": "Src",
+                    "size": 7461
+                },
+                {
+                    "name": "Syk",
+                    "size": 5915
+                },
+                {
+                    "name": "TK-Unique",
+                    "size": 0
+                },
+                {
+                    "name": "Tec",
+                    "size": 6330
+                },
+                {
+                    "name": "Tie",
+                    "size": 2199
+                },
+                {
+                    "name": "Trk",
+                    "size": 5982
+                },
+                {
+                    "name": "VEGFR",
+                    "size": 15303
+                }
+            ]
+        },
+        {
+            "name": "TKL",
+            "size": 27091,
+            "children": [
+                {
+                    "name": "IRAK",
+                    "size": 4514
+                },
+                {
+                    "name": "LISK",
+                    "size": 1680
+                },
+                {
+                    "name": "LRRK",
+                    "size": 2913
+                },
+                {
+                    "name": "MLK",
+                    "size": 2587
+                },
+                {
+                    "name": "RAF",
+                    "size": 8138
+                },
+                {
+                    "name": "RIPK",
+                    "size": 1497
+                },
+                {
+                    "name": "STKR",
+                    "size": 5762
+                },
+                {
+                    "name": "TKL-Unique",
+                    "size": 0
+                }
+            ]
+        }
+    ]
+}
