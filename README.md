@@ -1,7 +1,7 @@
 
 The KLSD database, available at http://ai.njucm.edu.cn:8080, is maintained by Nanjing University of Chinese Medicine under a time-based access policy to ensure data integrity, confidentiality, and availability. Access is permitted daily from 06:30 to 23:30 Beijing Time; external access is restricted outside these hours. KLSD is guaranteed to remain freely available for at least two years and supports major browsers on Windows and macOS.
 # KLSD
-In this project, we propose a dual-objective predictive model that integrates molecular feature engineering with deep learning to simultaneously predict both the activity and selectivity of inhibitors targeting the JAK kinase family (JAK1, JAK2, JAK3, and TYK2). The model employs a multilayer perceptron (MLP) residual network architecture with target-specific branching to enable accurate prediction across multiple sub-targets. Moreover, it introduces an innovative approach by using quantitative activity values in place of conventional binary labels.
+Herein, we present a database, KLSD, which is a curated resource of 787 213 small-molecule kinase inhibitors annotated with 1.8 M quantitative activity records across 428 human kinases, emphasizing selectivity and polypharmacology. Moreover, we introduce a dual-task ensemble that simultaneously regresses pAct and computes selectivity scores. The core is a multi-branch residual multilayer perceptron (MLP) whose branches are kinase-specific; this is augmented by SVM, RF, XGBoost, CNN, GCN, GAT, RGCN and VAE-enhanced graph nets. Continuous potency labels replace categorical classes to improve resolution. Benchmarked on the JAK family (JAK1/2/3, TYK2), the ensemble yields prediction accuracies of ≥ 0.84 for each kinase and 0.98 overall, demonstrating strong generalizability. KLSD and models are freely available at http://ai.njucm.edu.cn:8080.
 
 # Requirements
 The file is required to be located in requirements.txt.
@@ -18,6 +18,8 @@ process_data.py、split_dataset.py:Preprocessing and splitting of the input data
 nn.py: This function contains the network framework of our entire model.
 ML_code:Relevant code for the baseline model
 cnn:Relevant code for the baseline model
+backend:Backend files of the database platform
+klsd:Frontend files of the database platform
 
 # Train and test folds
 python process_data.py --finaldata /Your path
