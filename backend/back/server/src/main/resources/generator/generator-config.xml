@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <context id="Mysql" targetRuntime="Mybatis3" defaultModelType="flat">
+        <!-- 自动检查关键字，为关键字增加反引号-->
+        <property name="autoDelimitKeywords" value="true"></property>
+        <property name="beginningDelimiter" value="`"></property>
+        <property name="endingDelimiter" value="`"></property>
+
+        <!--覆盖生成xml文件-->
+        <plugin type="org.mybatis.generator.plugins.UnmergeableXmlMappersPlugin"></plugin>
+
+        <!-- 生成的实体类添加toString()方法-->
+        <plugin type="org.mybatis.generator.plugins.ToStringPlugin"></plugin>
+
+        <!-- 不生成注释-->
+        <commentGenerator>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+
+        <!--数据库连接信息 -->
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/tp_music?useUnicode=true&amp;characterEncoding=utf-8&amp;serverTimezone=UTC"
+                        userId="root"
+                        password="11111111"></jdbcConnection>
+
+        <!--自动domain[Bean]类的位置 -->
+        <javaModelGenerator targetProject="src/main/java"
+                            targetPackage="com.example.yin.model.domain">
+        </javaModelGenerator>
+
+        <!--自动mapper xml的位置-->
+        <sqlMapGenerator targetProject="src/main/resources"
+                         targetPackage="mapper">
+        </sqlMapGenerator>
+
+        <!--自动mapper类[接口]的位置 -->
+        <javaClientGenerator targetProject="src/main/java"
+                             targetPackage="com.example.yin.mapper"
+                             type="XMLMAPPER">
+        </javaClientGenerator>
+
+        <table tableName="drugs" enableCountByExample="false"
+               enableUpdateByExample="false"
+               enableDeleteByExample="false"
+               enableSelectByExample="false"
+               selectByExampleQueryId="false">
+        </table>
+    </context>
+</generatorConfiguration>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.yin.mapper.ChemblKinaseMapper">
+  <resultMap id="BaseResultMap" type="com.example.yin.model.domain.ChemblKinase">
+    <id column="kinaseid" jdbcType="INTEGER" property="kinaseid" />
+    <result column="MoleculeChEMBLID" jdbcType="VARCHAR" property="moleculechemblid" />
+    <result column="CompoundKey" jdbcType="VARCHAR" property="compoundkey" />
+    <result column="Smiles" jdbcType="VARCHAR" property="smiles" />
+    <result column="StandardType" jdbcType="VARCHAR" property="standardtype" />
+    <result column="StandardRelation" jdbcType="VARCHAR" property="standardrelation" />
+    <result column="StandardValue" jdbcType="VARCHAR" property="standardvalue" />
+    <result column="StandardUnits" jdbcType="VARCHAR" property="standardunits" />
+    <result column="PChEMBLValue" jdbcType="VARCHAR" property="standardunits" />
+    <result column="AssayChEMBLID" jdbcType="VARCHAR" property="assaychemblid" />
+    <result column="BAOLabel" jdbcType="VARCHAR" property="baoformatid" />
+    <result column="AssayOrganism" jdbcType="VARCHAR" property="assayorganism" />
+    <result column="TargetChEMBLID" jdbcType="VARCHAR" property="targetchemblid" />
+    <result column="TargetName" jdbcType="VARCHAR" property="targetname" />
+    <result column="TargetOrganism" jdbcType="VARCHAR" property="targetorganism" />
+    <result column="TargetType" jdbcType="VARCHAR" property="targettype" />
+    <result column="DocumentChEMBLID" jdbcType="VARCHAR" property="documentchemblid" />
+    <result column="SourceDescription" jdbcType="VARCHAR" property="sourcedescription" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.example.yin.model.domain.ChemblKinase">
+    <result column="AssayDescription" jdbcType="LONGVARCHAR" property="assaydescription" />
+    <result column="structure_img_binary" jdbcType="LONGVARBINARY" property="structureImgBinary" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    kinaseid, MoleculeChEMBLID, CompoundKey, Smiles, StandardType, StandardRelation, StandardValue, StandardUnits,
+    PChEMBLValue, AssayChEMBLID, BAOLabel, AssayOrganism, TargetChEMBLID, TargetName, TargetOrganism, TargetType,
+    DocumentChEMBLID,SourceDescription
+  </sql>
+  <sql id="Blob_Column_List">
+    AssayDescription, structure_img_binary
+  </sql>
+</mapper>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.yin.mapper.KinaseGroupMapper">
+  <resultMap id="BaseResultMap" type="com.example.yin.model.domain.KinaseGroup">
+    <id column="groupid" jdbcType="INTEGER" property="groupid" />
+    <result column="groupname" jdbcType="VARCHAR" property="groupname" />
+    <result column="familyname" jdbcType="VARCHAR" property="familyname" />
+    <result column="subfamilyname" jdbcType="VARCHAR" property="subfamilyname" />
+    <result column="number" jdbcType="INTEGER" property="number" />
+    <result column="active" jdbcType="INTEGER" property="active" />
+    <result column="inactive" jdbcType="INTEGER" property="inactive" />
+    <result column="comment" jdbcType="VARCHAR" property="comment" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    groupid, groupname, familyname, subfamilyname, `number`, active, inactive, `comment`
+  </sql>
+
+</mapper>

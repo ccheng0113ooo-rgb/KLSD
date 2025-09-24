@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.yin.mapper.DrugsMapper">
+  <resultMap id="BaseResultMap" type="com.example.yin.model.domain.Drugs">
+    <id column="drug_id" jdbcType="INTEGER" property="drugId" />
+    <result column="molecule_chembl_id" jdbcType="VARCHAR" property="moleculeChemblId" />
+    <result column="drug_name" jdbcType="VARCHAR" property="drugName" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="standard_type" jdbcType="VARCHAR" property="standardType" />
+    <result column="standard_relation" jdbcType="VARCHAR" property="standardRelation" />
+    <result column="standard_value" jdbcType="VARCHAR" property="standardValue" />
+    <result column="standard_units" jdbcType="VARCHAR" property="standardUnits" />
+    <result column="document_chembl_id" jdbcType="VARCHAR" property="documentChemblId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    drug_id, molecule_chembl_id, drug_name, `name`, standard_type, standard_relation, 
+    standard_value, standard_units, document_chembl_id
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from drugs
+    where drug_id = #{drugId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from drugs
+    where drug_id = #{drugId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.example.yin.model.domain.Drugs">
+    insert into drugs (drug_id, molecule_chembl_id, drug_name, 
+      `name`, standard_type, standard_relation, 
+      standard_value, standard_units, document_chembl_id
+      )
+    values (#{drugId,jdbcType=INTEGER}, #{moleculeChemblId,jdbcType=VARCHAR}, #{drugName,jdbcType=VARCHAR}, 
+      #{name,jdbcType=VARCHAR}, #{standardType,jdbcType=VARCHAR}, #{standardRelation,jdbcType=VARCHAR}, 
+      #{standardValue,jdbcType=VARCHAR}, #{standardUnits,jdbcType=VARCHAR}, #{documentChemblId,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.example.yin.model.domain.Drugs">
+    insert into drugs
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="drugId != null">
+        drug_id,
+      </if>
+      <if test="moleculeChemblId != null">
+        molecule_chembl_id,
+      </if>
+      <if test="drugName != null">
+        drug_name,
+      </if>
+      <if test="name != null">
+        `name`,
+      </if>
+      <if test="standardType != null">
+        standard_type,
+      </if>
+      <if test="standardRelation != null">
+        standard_relation,
+      </if>
+      <if test="standardValue != null">
+        standard_value,
+      </if>
+      <if test="standardUnits != null">
+        standard_units,
+      </if>
+      <if test="documentChemblId != null">
+        document_chembl_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="drugId != null">
+        #{drugId,jdbcType=INTEGER},
+      </if>
+      <if test="moleculeChemblId != null">
+        #{moleculeChemblId,jdbcType=VARCHAR},
+      </if>
+      <if test="drugName != null">
+        #{drugName,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="standardType != null">
+        #{standardType,jdbcType=VARCHAR},
+      </if>
+      <if test="standardRelation != null">
+        #{standardRelation,jdbcType=VARCHAR},
+      </if>
+      <if test="standardValue != null">
+        #{standardValue,jdbcType=VARCHAR},
+      </if>
+      <if test="standardUnits != null">
+        #{standardUnits,jdbcType=VARCHAR},
+      </if>
+      <if test="documentChemblId != null">
+        #{documentChemblId,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.example.yin.model.domain.Drugs">
+    update drugs
+    <set>
+      <if test="moleculeChemblId != null">
+        molecule_chembl_id = #{moleculeChemblId,jdbcType=VARCHAR},
+      </if>
+      <if test="drugName != null">
+        drug_name = #{drugName,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null">
+        `name` = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="standardType != null">
+        standard_type = #{standardType,jdbcType=VARCHAR},
+      </if>
+      <if test="standardRelation != null">
+        standard_relation = #{standardRelation,jdbcType=VARCHAR},
+      </if>
+      <if test="standardValue != null">
+        standard_value = #{standardValue,jdbcType=VARCHAR},
+      </if>
+      <if test="standardUnits != null">
+        standard_units = #{standardUnits,jdbcType=VARCHAR},
+      </if>
+      <if test="documentChemblId != null">
+        document_chembl_id = #{documentChemblId,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where drug_id = #{drugId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.example.yin.model.domain.Drugs">
+    update drugs
+    set molecule_chembl_id = #{moleculeChemblId,jdbcType=VARCHAR},
+      drug_name = #{drugName,jdbcType=VARCHAR},
+      `name` = #{name,jdbcType=VARCHAR},
+      standard_type = #{standardType,jdbcType=VARCHAR},
+      standard_relation = #{standardRelation,jdbcType=VARCHAR},
+      standard_value = #{standardValue,jdbcType=VARCHAR},
+      standard_units = #{standardUnits,jdbcType=VARCHAR},
+      document_chembl_id = #{documentChemblId,jdbcType=VARCHAR}
+    where drug_id = #{drugId,jdbcType=INTEGER}
+  </update>
+</mapper>
